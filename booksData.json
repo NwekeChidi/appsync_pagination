@@ -1,0 +1,124 @@
+{
+    "library-dev": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "4m78f3e9-05e0-4e2f-8c0f-9303af991b83" },
+                    "title": { "S": "The DynamoDB Book" },
+                    "author": { "S": "Alex DeBrie" },
+                    "copies": { "N": "8" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "5d78f3e9-05e0-4e2f-8c0f-9303af991b83" },
+                    "title": { "S": "Thrawn (Star Wars)" },
+                    "author": { "S": "Timothy Zahn" },
+                    "copies": { "N": "8" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "4a78f3e9-05e0-4e2f-8c0f-9303af991a75" },
+                    "title": { "S": "Harry Potter and The Philosopher's Stone" },
+                    "author": { "S": "J. K. Rowling" },
+                    "copies": { "N": "8" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "5c78f3e9-05e0-4e2f-8c0f-9303af991a74" },
+                    "title": { "S": "Harry Potter and The Chamber of Secrets" },
+                    "author": { "S": "J. K. Rowling" },
+                    "copies": { "N": "10" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "73a8f3e9-05e0-4e2f-8c0f-9303af991a70" },
+                    "title": { "S": "Harry Potter and The Prisoner of Azkaban" },
+                    "author": { "S": "J. K. Rowling" },
+                    "copies": { "N": "11" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "2o78f3e9-05e0-4e2f-8c0f-9303af991b83" },
+                    "title": { "S": "Harry Potter and The Order of Phoenix" },
+                    "author": { "S": "J. K. Rowling" },
+                    "copies": { "N": "8" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "6o78f3e9-05e0-4e2f-8c0f-9303af991b83" },
+                    "title": { "S": "Harry Potter and The Half Blood Prince" },
+                    "author": { "S": "J. K. Rowling" },
+                    "copies": { "N": "10" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "3q78f3e9-05e0-4e2f-8c0f-9303af991a75" },
+                    "title": { "S": "Harry Potter and The Goblet of Fire" },
+                    "author": { "S": "J. K. Rowling" },
+                    "copies": { "N": "20" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "9o78f3e9-05e0-4e2f-8c0f-9303af991a75" },
+                    "title": { "S": "Harry Potter and The Deathly Hallows Part 1" },
+                    "author": { "S": "J. K. Rowling" },
+                    "copies": { "N": "8" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": { "S": "4o78f3e9-05e0-4e2f-8c0f-9303af991a75" },
+                    "title": { "S": "Harry Potter and The Deathly Hallows Part 2" },
+                    "author": { "S": "J. K. Rowling" },
+                    "copies": { "N": "8" },
+                    "createdAt": { "S": "2023-07-06T19:58:22.947Z" },
+                    "updatedAt": { "S": "2023-07-06T19:58:22.947Z" }
+                }
+            }
+        }
+    ]
+}
