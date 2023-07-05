@@ -1,0 +1,17 @@
+type Book {
+  id: ID!
+  title: String!
+  author: String!
+  copies: Int
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+}
+
+type ListBooksResult {
+  books: [Book!]!
+  nextToken: String
+}
+
+type Query {
+  listBooks(input: ListBooksInput): ListBooksResult!
+}

@@ -1,0 +1,47 @@
+service: appsync-pagination-dynamodb
+frameworkVersion: "3"
+configValidationMode: error
+
+plugins:
+  - serverless-appsync-plugin
+
+provider:
+  name: aws
+  region: us-west-2
+
+appSync:
+  name: pagination-dynamodb-api
+  schema:
+    - schema/*.graphql
+  logging:
+    level: ERROR
+  authentication:
+    type: API_KEY
+  apiKeys:
+    - name: myApiKey
+  
+  dataSources:
+    library:
+      type: AMAZON_DYNAMODB
+      config:
+        tableName: !Ref Library
+
+  resolvers:
+    Query.listBooks:
+      functions:
+        - dataSource: library
+          code: src/resolvers/listBooks.js
+
+resources:
+  Resources:
+    Library:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: library-${sls:stage}
+        BillingMode: PAY_PER_REQUEST
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH

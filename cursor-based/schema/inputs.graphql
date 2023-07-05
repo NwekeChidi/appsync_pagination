@@ -1,0 +1,4 @@
+input ListBooksInput {
+  nextToken: String
+  limit: Int
+}
