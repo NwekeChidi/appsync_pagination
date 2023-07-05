@@ -1,4 +1,0 @@
-input ListBooksInput {
-  page: Int
-  limit: Int
-}
